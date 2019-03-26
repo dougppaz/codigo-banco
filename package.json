@@ -1,0 +1,14 @@
+{
+  "name": "codigos-bancos",
+  "version": "0.1.0",
+  "description": "Extrator dos códigos de bancos do site www.codigobanco.com",
+  "main": "src/index.js",
+  "repository": "https://github.com/douglasppaz/codigos-bancos.git",
+  "author": "Douglas Paz <eu@douglaspaz.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
