@@ -2,10 +2,17 @@
   "name": "codigos-bancos",
   "version": "0.1.0",
   "description": "Extrator dos códigos de bancos do site www.codigobanco.com",
-  "keywords": ["febraban", "banco", "codigos", "json"],
+  "keywords": [
+    "febraban",
+    "banco",
+    "codigos",
+    "json",
+    "yaml"
+  ],
   "author": "Douglas Paz <eu@douglaspaz.com>",
   "scripts": {
-    "export-to-json": "node ./src/export-to-json.js"
+    "export-to-json": "node ./src/export-to-json.js",
+    "export-to-yaml": "node ./src/export-to-yaml.js"
   },
   "main": "src/index.js",
   "repository": "https://github.com/dougppaz/codigo-banco.git",
@@ -13,6 +20,7 @@
   "private": false,
   "dependencies": {
     "axios": "^0.18.0",
-    "cheerio": "^1.0.0-rc.2"
+    "cheerio": "^1.0.0-rc.2",
+    "yaml": "^1.10.0"
   }
 }
