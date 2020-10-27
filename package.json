@@ -2,6 +2,7 @@
   "name": "codigos-bancos",
   "version": "0.1.0",
   "description": "Extrator dos códigos de bancos do site www.codigobanco.com",
+  "keywords": ["febraban", "banco", "codigos", "json"],
   "author": "Douglas Paz <eu@douglaspaz.com>",
   "scripts": {
     "export-to-json": "node ./src/export-to-json.js"
