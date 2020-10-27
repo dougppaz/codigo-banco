@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Extrator dos códigos de bancos do site www.codigobanco.com",
   "main": "src/index.js",
-  "repository": "https://github.com/douglasppaz/codigos-bancos.git",
+  "repository": "https://github.com/dougppaz/codigo-banco.git",
   "author": "Douglas Paz <eu@douglaspaz.com>",
   "license": "MIT",
   "private": false,
