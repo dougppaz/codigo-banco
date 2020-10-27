@@ -1,4 +1,5 @@
 # Código Banco
+![Release or Update](https://github.com/dougppaz/codigo-banco/workflows/Release%20or%20Update/badge.svg)
 
 Extrator dos códigos de banco (código FEBRABAN) brasileiros apartir do site [www.codigobanco.com](https://www.codigobanco.com) utilizando Node.
 
