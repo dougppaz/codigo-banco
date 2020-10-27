@@ -1,4 +1,4 @@
-const axios = require('axios');
+const axios = require('axios')
 const cheerio = require('cheerio')
 
 module.exports = () => axios
@@ -6,11 +6,11 @@ module.exports = () => axios
   .then(response => response.data)
   .then(cheerio.load)
   .then($ => $('table tbody tr').map((i, elem) => {
-    const [code, name, site] = $(elem).find('td').map((i, elem) => $(elem).text()).get();
+    const [code, name, site] = $(elem).find('td').map((i, elem) => $(elem).text()).get()
     return {
       code,
       name,
       site,
     };
   }))
-  .then(mapResult => mapResult.get());
+  .then(mapResult => mapResult.get())
